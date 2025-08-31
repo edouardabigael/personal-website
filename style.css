@@ -1,0 +1,256 @@
+
+/* STYLE SECTIONING TAGS */
+body {
+  background-image: url('assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+
+.homepage-header {
+  background-color:black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-flexbox;
+  width: 100%;
+  height: 100px;
+  background-image: url('assets/flwr-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border: 5px solid #EFAFD3;
+  border-style: groove;
+
+}
+
+.homepage-main {
+  position: absolute;
+  font-family: 'Serif', Times New Roman;
+  font-size: 22px;
+  text-align: left;
+  color: black;
+  border-radius: 1em;
+  background-color: rgba(239, 175, 211, .5);
+  margin: 1em;
+  width: 50%;
+  height: 35%;
+  top: 35%;
+  margin-left: 35%;
+  border: 5px outset #EFAFD3;
+  overflow: auto
+  
+}
+
+.homepage-main:hover {
+   box-shadow: 0 0 30px  rgba(0, 0, 0, 2);
+  @keyframes glow;
+  
+}
+
+.main-img {
+  float: left;
+  width: 30%;=
+  margin-bottom: auto; 
+
+}
+
+.update-log {
+  font-family: 'Serif', Times New Roman;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border-radius: 1em;
+  background-color: rgba(239, 175, 211, .5);
+  border: 5px outset #EFAFD3;
+  height: 150px;
+  width: 285px;
+  margin-right: 100%;
+  overflow: auto;
+
+}
+
+
+.homepage-video {
+  width: 20%;
+  margin-top: 3%;
+}
+
+.homepage-footer {
+  text-align: center;
+  background-color: rgba(239, 175, 211, .5);
+  padding-bottom: 0.5em;
+  border: 5px groove #EFAFD3;
+}
+
+/* About Page */ 
+.about-header {
+  font-size: 18px;
+  background-color:black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-flexbox;
+  width: 100%;
+  height: 100px;
+  background-image: url('assets/flwr-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border: 5px solid #EFAFD3;
+  border-style: groove;
+}
+
+.about-main {
+  position: absolute;
+  font-family: 'Serif', Times New Roman;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  border-radius: 1em;
+  background-color: rgba(239, 175, 211, .5);
+  margin: 2em;
+  width: 50%;
+  height: 70%;
+  top: 25%;
+  margin-left: 35%;
+  border: 5px outset #EFAFD3;
+  overflow: auto;
+}
+
+
+/* Portfolo Page */ 
+.portfolio-header {
+  background-color:black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-flexbox;
+  width: 100%;
+  height: 100px;
+  background-image: url('assets/flwr-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border: 5px solid #EFAFD3;
+  border-style: groove;
+
+}
+
+.portfolio-img1 {
+  position: absolute;
+  margin-left: 10%;
+  border: 5px outset #FFFFFF;
+}
+
+.porfolio-img1: hover {
+  box-shadow: 0 0 30px  rgba(255, 255, 255, 2);
+  
+}
+
+.portfolio-img1: active {
+  transform: translateY(5px);
+}
+  
+.portfolio-img2 {
+  position: absolute;
+  margin-left: 60%;
+}
+
+.portfolio-img3 {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 35%;
+}
+
+/* Blog Page */
+.blog-header {
+  background-color:black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-flexbox;
+  width: 100%;
+  height: 100px;
+  background-image: url('assets/flwr-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border: 5px solid #EFAFD3;
+  border-style: groove;
+
+}
+
+.blog-main {
+  position: absolute;
+  margin-left: 35%;
+  top: 25%;
+  
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color:#EFAFD3;
+  text-align: center;
+  padding-top: 1em;
+  text-shadow: 0 0 30px #FFFFFF;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* STYLE IMAGES */
+.header-img {
+  top: 10px;
+  position: absolute;
+  width: 100%;
+  right: 300px;
+  padding: none;
+  
+  }
+  
+
+}
+
+/* STYLE NAV BAR */
+nav {
+  text-align: left;
+  
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgba(239, 175, 211, .5);
+  overflow: hidden;
+  padding: 1em;
+  margin-top: 1em;
+  width: 20%
+
+}
+
+ul a:visited {
+  color: black;
+}
+
+li {
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 0em;
+}
+
+li a:hover {
+  color: #FFFFFF;
+}
